@@ -6,29 +6,30 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 200px;
     margin: 0 auto;
     padding: 20px;
     background-color: #D1C8BD;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 500px;
+    height: 300px;
     border-radius: 20px;
     margin-top: 150px;
 }
 
 .navbar {
     background-color: #d2d1cf;
-    height: 120px;
-    width: 100%;
+    height: 130px;
+    width: 110%;
     display:inline-block;
     vertical-align: center;
 }
 .icon-container {
-    width: 100px;  /* Set the desired width */
-    height: 100px; /* Set the desired height */
-    color: rgb(12, 12, 12);   /* Set the desired color */
+    width: 100px;  
+    height: 70px; 
+    color: rgb(12, 12, 12);   
     position: relative;
-    margin-top: -40px;
+    margin-top: -10px;
+    margin-right: 100px;
   }
   
 
@@ -46,16 +47,16 @@ h1 {
     
 }
 .navbar-brand  mb-3 h1{
-    margin-top: -100px;
+    margin-top: -10px;
     padding-top: -20px;
 }
 
 
 
 button {
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 2px solid #0b0808;
     border-radius: 4px;
 }
@@ -73,7 +74,7 @@ img{
 .text-right{
     position: absolute;
     top: 125;
-    right: 50;
+    right: 80;
    
 
 }
@@ -86,16 +87,35 @@ img{
 }
 .text-right2{
     position: absolute;
-    top: 323;
+    top: 325;
     right: 50;
     
 }
+
 .Card{
-    height: 70px;
+    margin: 50px;
+    padding: 10px;
+    height: 100px;
     width: 90%;
     background-color: 837C6A;
     border-radius: 20px;
 }
+
+.Card h3{
+    margin: 0.5px;
+    padding: 10px;
+    gap: 0.5px;
+}
+
+.Card > p{
+    position: relative;
+    left: 85%;
+    top: -90%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
 .button container{
     text-align: center;
     margin-right: -50px;
