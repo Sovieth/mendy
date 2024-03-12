@@ -3,6 +3,7 @@ body {
     background-color: #D1C8BD;
     margin: 0;
     padding: 0;
+    /* position: fixed; */
 }
 
 .container {
@@ -14,7 +15,11 @@ body {
     height: 300px;
     border-radius: 20px;
     margin-top: 150px;
+    position: fixed;
+    
+    
 }
+
 
 .navbar {
     background-color: #d2d1cf;
@@ -22,6 +27,7 @@ body {
     width: 110%;
     display:inline-block;
     vertical-align: center;
+   
 }
 .icon-container {
     width: 100px;  
@@ -30,6 +36,7 @@ body {
     position: relative;
     margin-top: -10px;
     margin-right: 100px;
+    
   }
   
 
@@ -38,17 +45,20 @@ body {
     margin-right: 7%;
     margin-top: -30px;
     text-align: center;
+   
 }
 
 h1 {
     text-align: center;
     padding-top: -100px;
     right: -10;
+   
     
 }
 .navbar-brand  mb-3 h1{
     margin-top: -10px;
     padding-top: -20px;
+   
 }
 
 
@@ -59,6 +69,7 @@ button {
     margin-bottom: 20px;
     border: 2px solid #0b0808;
     border-radius: 4px;
+   
 }
 
 
